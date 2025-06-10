@@ -1,0 +1,9 @@
+i=2
+while i<=20:
+    print(i)
+    i=i+2
+print('using for loop')
+ele=100
+for ele in range(100,51,-1):
+    print(ele)
+

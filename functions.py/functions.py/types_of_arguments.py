@@ -19,3 +19,23 @@ def cal(a,b,c=1): # giving default value for c if we don't use it while calling
 cal(1,2)# not giving c value
 cal(1,2,3) #c=3 and calculated
 
+#calling a function
+
+def login(name,status):
+    if status==True:
+        print('login success')
+    else:
+        print('login failure')
+
+login("rg",True)
+login("sg",False)
+
+#var length argument
+print('variable length argument:')
+def sum(a,*b):
+    print(a,b)
+
+sum(10,20)
+sum(10,20,30)
+sum(10,20,30,40)
+sum(10,20,30,40,50,60)
